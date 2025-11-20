@@ -285,6 +285,7 @@ body {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.5rem;
   margin-top: 0.5rem;
+  margin-bottom: 1.8rem; /* separa de la sección de Proyectos */
 }
 
 .about-block h3 {
