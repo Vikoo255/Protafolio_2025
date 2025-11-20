@@ -1,4 +1,4 @@
-# Protafolio_2025
+# Portafolio_2025
 
 Analista de datos con base financiera. Proyectos de automatización, análisis de datos y reporting.
 
