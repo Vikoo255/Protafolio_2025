@@ -21,6 +21,15 @@ body[data-theme="dark"] {
   --shadow-soft: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
 
+body[data-theme="dark"] .tag {
+  color: var(--text);
+}
+
+body[data-theme="dark"] .btn-secondary {
+  background: var(--bg-light);
+  color: var(--text);
+}
+
 *,
 *::before,
 *::after {
@@ -225,7 +234,7 @@ body {
   border-radius: var(--radius);
   padding: 1.3rem 1.2rem;
   box-shadow: var(--shadow-soft);
-  border: 1px solid rgba(225, 225, 225, 0.7);
+  border: 1px solid var(--border);
 }
 
 .hero-card h2 {
